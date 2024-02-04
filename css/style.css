@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+
+}
+.header{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size:  100% 130px;
+    height: 130px;
+    width: 100%;
+   
+}
+
+.menu{
+    height: 40px;
+    width: 100%;
+    background:#956d8b ;
+}
+
+#main{
+    height: 500px;
+    width: 100%;
+
+}
+
+
+ul.list-menu{
+    padding: 0;
+    list-style: none;
+    margin:0 auto;
+    line-height: 20px;
+   
+}
+ul.list-menu li{
+    float: left;
+    margin: 5px;
+    padding:5px;
+}
+
+ul.list-menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffff;
+   
+}
+ul.list-menu li:hover{
+    background: #e8c1dd ;
+}
+ul.list_randonnee{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+   
+}
+ul.list_randonnee li {
+    width: 18%;/*15%*/
+    border: 1px dashed #000;
+    margin: 8.8px;
+    float: left;
+    background:#f2f2f2 ;
+    height: 220px;
+
+}
+ul.list_randonnee li a{
+    text-decoration: none;
+}
+ul.list_randonnee li img{
+    width: 100%;
+}
+
+p.nom_randonnee{
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px;
+}
+p.adress_randonnee{
+    text-align: center;
+    color:  #333333;
+    font-size: 11px;
+    font-weight: bold;
+}
+   
+/* Css page une randonnée */
+.wrapperDetail{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+} 
+.photoRandonnee{
+    display: flex;
+    justify-content: center;
+}
+.detailRandonnee{
+    float:left;
+    width: 100%;
+    margin-top: 10px;
+}
+.detailRandonnee h3{
+    font-size: 30px;
+    color: darkblue;
+    margin: 0;
+}
+.titre-une-randonnee{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* css rating star */
+
+.list-inline >li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+
+}
